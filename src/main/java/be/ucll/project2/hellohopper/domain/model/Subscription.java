@@ -3,9 +3,11 @@ package be.ucll.project2.hellohopper.domain.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
+@Table(name = "subscriptions")
 public class Subscription {
     @Id
     @GeneratedValue
