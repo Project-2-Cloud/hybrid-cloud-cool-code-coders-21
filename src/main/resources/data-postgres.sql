@@ -1,1 +1,0 @@
--- insert into subscriptions(id,price,frequency,description) values();

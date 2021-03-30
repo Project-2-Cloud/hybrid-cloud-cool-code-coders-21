@@ -24,7 +24,7 @@ public class SubscriptionService implements ISubscriptionService{
     }
 
     @Override
-    public void add(Subscription subscription) {
+    public void create(Subscription subscription) {
         repository.save(subscription);
     }
 
