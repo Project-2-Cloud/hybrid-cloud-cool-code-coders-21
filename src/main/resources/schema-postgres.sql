@@ -7,3 +7,10 @@ create table if not exists hellohopper.subscriptions (
     quantity int,
     price decimal(10,2)
 );
+
+--drop table if exists hellohopper.recipes;
+--create table if not exists hellohopper.recipes (
+--    id bigint,
+--    title varchar(255) primary key,
+--    thumbnail_url varchar(255)
+--);
