@@ -4,54 +4,46 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name = "subscriptions")
 public class Subscription {
     @Id
     @GeneratedValue
-    private int id;
-    @NotEmpty
-    private double price;
-    @NotEmpty
-    private int frequency;
-    @NotEmpty
+    private String id;
+    private String title;
     private String description;
+    private String thumbnail_url;
+    private int quantity;
+    private float price;
 
-    public Subscription(int id, @NotEmpty double price, @NotEmpty int frequency, @NotEmpty String description) {
+    public Subscription(String id, String title, String description, String thumbnail_url, int quantity, float price) {
         this.id = id;
-        this.price = price;
-        this.frequency = frequency;
+        this.title = title;
         this.description = description;
+        this.thumbnail_url = thumbnail_url;
+        this.quantity = quantity;
+        this.price = price;
     }
 
     public Subscription() {
 
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public double getPrice() {
-        return price;
+    public String getTitle() {
+        return title;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public int getFrequency() {
-        return frequency;
-    }
-
-    public void setFrequency(int frequency) {
-        this.frequency = frequency;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDescription() {
@@ -62,13 +54,27 @@ public class Subscription {
         this.description = description;
     }
 
-    @Override
-    public String toString() {
-        return "Subscription{" +
-                "id=" + id +
-                ", price=" + price +
-                ", frequency=" + frequency +
-                ", description='" + description + '\'' +
-                '}';
+    public String getThumbnail_url() {
+        return thumbnail_url;
+    }
+
+    public void setThumbnail_url(String thumbnail_url) {
+        this.thumbnail_url = thumbnail_url;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
     }
 }

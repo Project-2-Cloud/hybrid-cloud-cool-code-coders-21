@@ -1,4 +1,3 @@
-insert into hellohopper.subscriptions (id,price,frequency,description) values
-(0,0,0,'This is a test subscription'),
-(1,1,1,'This is a test subscription');
-
+insert into hellohopper.subscriptions (id,title,description,thumbnail_url,quantity,price) values
+('1','','This is a test subscription','',1,0),
+('2','','This is a test subscription','',1,0);
