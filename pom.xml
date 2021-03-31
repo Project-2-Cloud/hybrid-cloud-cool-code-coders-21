@@ -15,7 +15,7 @@
     <name>hellohopper</name>
     <description>Project2 - HelloHopper</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>10</java.version>
     </properties>
     <dependencies>
         <dependency>

@@ -1,0 +1,9 @@
+be\ucll\project2\hellohopper\ServletInitializer.class
+be\ucll\project2\hellohopper\domain\service\ISubscriptionService.class
+be\ucll\project2\hellohopper\domain\model\Subscription.class
+be\ucll\project2\hellohopper\ui\controller\SubscriptionController.class
+be\ucll\project2\hellohopper\domain\service\SubscriptionService.class
+be\ucll\project2\hellohopper\domain\repository\SubscriptionsRepository.class
+be\ucll\project2\hellohopper\domain\model\ScopeValidator.class
+be\ucll\project2\hellohopper\WebSecurityConfiguration.class
+be\ucll\project2\hellohopper\HellohopperApplication.class
