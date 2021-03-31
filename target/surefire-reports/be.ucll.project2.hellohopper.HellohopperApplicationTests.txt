@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: be.ucll.project2.hellohopper.HellohopperApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.535 s - in be.ucll.project2.hellohopper.HellohopperApplicationTests
