@@ -50,10 +50,12 @@ public class SubscriptionController {
         String scope = accessToken.getClaims().get("scope").toString();
         Boolean partnerRole = scope.contains("partner");
 
+        System.out.println(subscription);
+
         if (partnerRole) {
             System.out.println("Contains sequence 'partner': " + accessToken.getClaims().get("scope").toString());
             System.out.println("Contains sequence 'partner': " + accessToken.getClaims().get("scope").toString().contains("partner"));
-            System.out.println("Subscription added");
+            subscriptionService.create(subscription);
             return "Subscription added";
         } else {
             System.out.println("Not Authorized to add subscription");
