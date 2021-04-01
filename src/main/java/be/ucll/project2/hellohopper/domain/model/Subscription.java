@@ -1,23 +1,20 @@
 package be.ucll.project2.hellohopper.domain.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "subscriptions")
 public class Subscription {
     @Id
-    @GeneratedValue
-    private String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String title;
     private String description;
     private String thumbnail_url;
     private int quantity;
     private float price;
 
-    public Subscription(String id, String title, String description, String thumbnail_url, int quantity, float price) {
+    public Subscription(int id, String title, String description, String thumbnail_url, int quantity, float price) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -30,11 +27,11 @@ public class Subscription {
 
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

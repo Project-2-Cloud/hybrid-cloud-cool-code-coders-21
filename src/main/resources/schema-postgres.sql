@@ -1,6 +1,6 @@
 drop table if exists hellohopper.subscriptions;
 create table if not exists hellohopper.subscriptions (
-    id varchar(255) primary key,
+    id serial primary key,
     title varchar(255),
     description varchar(255),
     thumbnail_url varchar(255),
@@ -10,7 +10,7 @@ create table if not exists hellohopper.subscriptions (
 
 drop table if exists hellohopper.recipes;
 create table if not exists hellohopper.recipes (
-    id int,
-    title varchar(255) primary key,
+    id serial primary key,
+    title varchar(255),
     thumbnail_url varchar(255)
 );

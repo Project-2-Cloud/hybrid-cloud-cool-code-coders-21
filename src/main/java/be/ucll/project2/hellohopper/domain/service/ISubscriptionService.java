@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ISubscriptionService {
     List<Subscription> getAll();
-    Subscription get(String id);
+    Subscription get(int id);
     void create(Subscription subscription);
     void delete(Subscription subscription);
     void update(Subscription subscription);

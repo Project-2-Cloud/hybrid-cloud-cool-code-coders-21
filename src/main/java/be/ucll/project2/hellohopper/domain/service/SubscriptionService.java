@@ -19,7 +19,7 @@ public class SubscriptionService implements ISubscriptionService{
     }
 
     @Override
-    public Subscription get(String id) {
+    public Subscription get(int id) {
         return (Subscription) repository.findById(id).get();
     }
 
