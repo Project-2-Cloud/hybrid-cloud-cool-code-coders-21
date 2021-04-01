@@ -12,7 +12,7 @@ public class Subscription {
     private String description;
     private String thumbnail_url;
     private int quantity;
-    private float price;
+    private double price;
 
     public Subscription(int id, String title, String description, String thumbnail_url, int quantity, float price) {
         this.id = id;
@@ -67,11 +67,11 @@ public class Subscription {
         this.quantity = quantity;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
