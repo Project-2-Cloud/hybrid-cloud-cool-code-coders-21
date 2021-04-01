@@ -17,8 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-//change [origins = "*", allowedHeaders = "*"] into [origins = "http://localhost:8080"]
-@CrossOrigin(origins = "*", allowedHeaders = "*", allowCredentials = "true")
+@CrossOrigin(origins = "http://vuejs-frontend-ucllteam21.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/", allowedHeaders = "*", allowCredentials = "true")
 @RestController
 public class SubscriptionController {
 
