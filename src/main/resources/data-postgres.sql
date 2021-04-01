@@ -1,16 +1,16 @@
 insert into hellohopper.subscriptions (id,title,description,thumbnail_url,quantity,price) values
 ('1','1 small Hopper Box / month','Food for 2 people per box','small.png',1,10.00),
-('2','2 small Hopper Boxes / month','Food for 2 people per box','small.png',1,20.00),
-('3','3 small Hopper Boxes / month','Food for 2 people per box','small.png',1,30.00),
-('4','4 small Hopper Boxes / month','Food for 2 people per box','small.png',1,40.00),
-('5','1 medium Hopper Box / month','Food for 3 people per box','medium.png',1,13.00),
-('6','2 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,26.00),
-('7','3 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,39.00),
-('8','4 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,52.00),
-('9','1 large Hopper Box / month','Food for 4 people per box','large.png',1,15.00),
-('10','2 large Hopper Boxes / month','Food for 4 people per box','large.png',1,30.00),
-('11','3 large Hopper Boxes / month','Food for 4 people per box','large.png',1,45.00),
-('12','4 large Hopper Boxes / month','Food for 4 people per box','large.png',1,60.00);
+('2','2 small Hopper Boxes / month','Food for 2 people per box','small.png',1,19.00),
+('3','3 small Hopper Boxes / month','Food for 2 people per box','small.png',1,27.00),
+('4','4 small Hopper Boxes / month','Food for 2 people per box','small.png',1,34.00),
+('5','1 medium Hopper Box / month','Food for 3 people per box','medium.png',1,15.00),
+('6','2 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,28.50),
+('7','3 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,40.50),
+('8','4 medium Hopper Boxes / month','Food for 3 people per box','medium.png',1,51.00),
+('9','1 large Hopper Box / month','Food for 4 people per box','large.png',1,20.00),
+('10','2 large Hopper Boxes / month','Food for 4 people per box','large.png',1,38.00),
+('11','3 large Hopper Boxes / month','Food for 4 people per box','large.png',1,54.00),
+('12','4 large Hopper Boxes / month','Food for 4 people per box','large.png',1,68.00);
 
 
 
